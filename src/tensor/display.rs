@@ -77,11 +77,11 @@ impl std::fmt::Debug for Tensor {
 
 /// Options for Tensor pretty printing
 pub struct PrinterOptions {
-    precision: usize,
-    threshold: usize,
-    edge_items: usize,
-    line_width: usize,
-    sci_mode: Option<bool>,
+    pub precision: usize,
+    pub threshold: usize,
+    pub edge_items: usize,
+    pub line_width: usize,
+    pub sci_mode: Option<bool>,
 }
 
 lazy_static! {
